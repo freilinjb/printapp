@@ -1,5 +1,6 @@
 <?php
 
+
 # Seguridad
 defined('INDEX_DIR') OR exit('was software says .i.');
 

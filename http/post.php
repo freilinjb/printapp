@@ -9,6 +9,7 @@ $app->post('/print/comanda',function($request, $response){
 
 $app->post('/print/venta',function($request, $response){
 
+  // echo "hola";die;
   $e = new Prt();
   $response->withJson($e->printVenta($_POST));
   return $response;

@@ -1,4 +1,5 @@
 <?php
+
 # Carga del núcleo
 define('INDEX_DIR',true);
 header('Access-Control-Allow-Origin:*');    
@@ -24,6 +25,9 @@ if(1>0) {
 } else {
   $app = new \Slim\App;
 }
+// echo "entro";die;
+// print_r($_GET);die;
+
 //------------------------------------------------
 
 # Peticiones GET
